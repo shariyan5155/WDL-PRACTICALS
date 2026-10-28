@@ -1,0 +1,23 @@
+header 
+{
+    background-color: #bae36f;
+    color: #841273;             
+    padding: 25px 15px; 
+    text-align: center;
+    border:2px solid black;
+} 
+.grid
+{
+    display:grid;
+    gap:20px;
+    color:rgb(150, 138, 82);
+    background-color:rgb(33, 144, 119);
+    border: 2px solid black;
+    padding: 25px;
+}
+.grid-item
+{
+    background-color:rgb(83, 21, 5);
+    border: 2px solid black;
+    padding: 25px;
+}

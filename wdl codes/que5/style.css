@@ -1,0 +1,39 @@
+.navbar
+{
+    background-color:rgb(110, 42, 42);
+}
+
+.nav-links
+{
+    list-style:none;
+    display:flex;
+}
+
+.nav-links a
+{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    padding:10px 15px;
+    display:block;
+}
+
+.nav-links a:hover,.nav-links a.active
+{
+    background-color:rgb(149, 96, 96);
+}
+.dropdown
+{
+    position:relative;
+}
+
+.dropdown-content
+{
+    display:none;
+    position:absolute;
+    background-color:white;
+    left:0;
+}
+.dropdown:hover .dropdown-content
+{
+    display:block;
+}
